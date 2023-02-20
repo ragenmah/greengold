@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green shop - Product detailas</title>
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ======= Top Bar ======= -->
+    <section id="topbar" class="d-flex align-items-center">
+        <div class="container d-flex justify-content-center justify-content-md-between">
+            <div class="contact-info d-flex align-items-center">
+                <!-- <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@example.com</a>
+        <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55 -->
+                <div class="slogan">A Hemp Products Manufacturer ,Wholesaler & Exporter .</div>
+            </div>
+
+            <div class="social-links d-none d-md-block">
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="product_summary.html"><span class="btn btn-sm btn-success"><i
+                            class="bi-cart-dash icon-white"></i><span class="badge badge-light">[ 9 ]</span> </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center">
+
+            <!--  -->
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <a href="index.html" class="logo me-auto">
+                <img src="assets/img/logo.png" alt="" class="img-fluid">
+                <!-- <h1 class="logo me-auto"><a href="index.html">GREEN Shop</a></h1> -->
+            </a>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+                    <li><a class="nav-link scrollto" href="aboutus.html">About</a></li>
+                    <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Hemp Product</a></li>
+                            <li><a href="#">Cotton Product</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="contact.html">Contact us</a></li>
+                    <!-- <li><a class="nav-link scrollto" href="">Login</a></li>
+          <li><a class="getstarted scrollto" href="#about">Register</a></li> -->
+                    <li>
+                        <button class="openBtn m-3" onclick="openSearch()"><i class="bi bi-search"></i></button>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+
+        <div id="myOverlay" class="search-overlay">
+            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+            <div class="animate__animated animate__fadeInUp search-overlay-content">
+                <form action="">
+                    <input type="text" placeholder="Search.." name="search" autocomplete="off">
+                    <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </header><!-- End Header -->
+
+
+    <main id="main ">
+        <div class="container mt-5 mb-5">
+            <div class=" d-flex">
+                <!-- Sidebar ================================================== -->
+                <div id="sidebar" class="col-3">
+                    <ul id="sideManu" class=" nav-tabs nav-stacked mt-5">
+                        <li class="accordion open"><a> COLLECTIONS OR PRODUCTS [230]</a>
+                            <ul class="mt-3">
+                                <li><a class="active" href="products.html">
+                                        <i class="bx bxs-chevron-right"></i>Mens (100) </a></li>
+                                <li><a href="products.html"><i class="bx bxs-chevron-right"></i>Womens(30)</a></li>
+                                <li><a href="products.html"><i class="bx bxs-chevron-right"></i>Kids (80)</a></li>
+                                <li><a href="products.html"><i class="bx bxs-chevron-right"></i>Hemp Products(15)</a>
+                                <li><a href="products.html"><i class="bx bxs-chevron-right"></i>Cotton Products(15)</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Sidebar end=============================================== -->
+                <!-- ======= Our Products Section ======= -->
+                <div id="products col">
+                    <div class="row products-container">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3>Mens </h3>
+                            <h2 class="pull-right small"> 40 products are available </h2>
+                        </div>
+                        <p class="mt-3 small ">
+                            Nowadays the lingerie industry is one of the most successful business spheres.We always stay
+                            in touch with the latest fashion tendencies - that is why our goods are so popular and we
+                            have a great number of faithful customers all over the country.
+                        </p>
+                        <!-- <hr class="soft" /> -->
+                        <div class="row d-flex justify-content-between">
+                            <!-- <form class="my-3  col-lg-10 ">
+                                <div class="form-group d-flex align-items-center">
+                                    <label class="small col-2">Sort By </label>
+                                    <select class="form-control  w-5">
+                                        <option class="small">Priduct name A - Z</option>
+                                        <option>Priduct name Z - A</option>
+                                        <option>Priduct Stoke</option>
+                                        <option>Price Lowest first</option>
+                                    </select>
+                                </div>
+                            </form> -->
+
+                            <div id="myTab" class="float-right ">
+                                <a href="#listView" data-toggle="tab"><span class="btn btn-large"><i
+                                            class="bi bi-list-ol"></i></span></a>
+                                <a href="#blockView" data-toggle="tab"><span class="btn btn-large btn-success"><i
+                                            class="bi-grid"></i></span></a>
+                            </div>
+                        </div>
+                        <br/>
+                        <figure class="products">
+                            <div class="image">
+                                <img src="assets/img/slide/1.jpg" alt="product-img" height="300px" />
+                                <div class="icons">
+                                    <a href="#" class="product-details">Add to cart</a>
+                                </div>
+                                <a href="product_detail.html" class="add-to-cart">Details</a>
+                            </div>
+                            <figcaption>
+                                <h2>Backpack Everest</h2>
+                                <div class="price">$195.00 </div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="products">
+                            <div class="image">
+                                <img src="assets/img/slide/2.jpg" alt="sq-sample15" height="300px" />
+                                <div class="icons">
+                                    <a href="#" class="product-details">Add to cart</a>
+                                </div>
+                                <a href="product_detail.html" class="add-to-cart">Details</a>
+                            </div>
+                            <figcaption>
+                                <h2>Backpack Everest</h2>
+                                <div class="price">$195.00 </div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="products">
+                            <div class="image">
+                                <img src="assets/img/slide/1.jpg" alt="sq-sample15" height="300px" />
+                                <div class="icons">
+                                    <a href="#" class="product-details">Add to cart</a>
+                                </div>
+                                <a href="product_detail.html" class="add-to-cart">Details</a>
+                            </div>
+                            <figcaption>
+                                <h2>Backpack Everest</h2>
+                                <div class="price">$195.00 </div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="products">
+                            <div class="image">
+                                <img src="assets/img/slide/1.jpg" alt="sq-sample15" height="300px" />
+                                <div class="icons">
+                                    <a href="#" class="product-details">Add to cart</a>
+                                </div>
+                                <a href="product_detail.html" class="add-to-cart">Details</a>
+                            </div>
+                            <figcaption>
+                                <h2>Backpack Everest</h2>
+                                <div class="price">$195.00 </div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="products">
+                            <div class="image">
+                                <img src="assets/img/slide/2.jpg" alt="sq-sample15" height="300px" />
+                                <div class="icons">
+                                    <a href="#" class="product-details">Add to cart</a>
+                                </div>
+                                <a href="product_detail.html" class="add-to-cart">Details</a>
+                            </div>
+                            <figcaption>
+                                <h2>Backpack Everest</h2>
+                                <div class="price">$195.00 </div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="products">
+                            <div class="image">
+                                <img src="assets/img/slide/1.jpg" alt="sq-sample15" height="300px" />
+                                <div class="icons">
+                                    <a href="#" class="product-details">Add to cart</a>
+                                </div>
+                                <a href="product_detail.html" class="add-to-cart">Details</a>
+                            </div>
+                            <figcaption>
+                                <h2>Backpack Everest</h2>
+                                <div class="price">$195.00 </div>
+                            </figcaption>
+                        </figure>
+                        
+                        
+
+                    </div>
+                </div><!-- End product Section -->
+            </div>
+        </div>
+    </main><!-- End #main -->
+
+
+    <!-- Footer ================================================================== -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-3">
+                    <a href="index.html" class="logo me-auto">
+                        <img src="assets/img/logo.png" alt="" class="img-fluid">
+                        <!-- <h1 class="logo me-auto"><a href="index.html">GREEN Shop</a></h1> -->
+                    </a>
+                    <br>
+                    <p>
+                        Nepal Hemp Industry Pvt. Ltd. is an online wholesale platform, offering a wide variety of Nepali
+                        hemp handicrafts products at an affordable price and ship worldwide. Our mission is to connect
+                        the dots between the local artisans as well as the overall Nepali handicraft community with the
+                        rest of the world using technology.
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-sm-3">
+                    <h5>Our Offers</h5>
+                    <a href="#">NEW PRODUCTS</a>
+                    <a href="#">TOP SELLERS</a>
+                    <a href="special_offer.html">SPECIAL OFFERS</a>
+                </div>
+                <div class="col-lg-3 col-sm-3">
+                    <h5>Quick Links</h5>
+                    <a href="contact.html">CONTACT</a>
+                    <a href="register.html">REGISTRATION</a>
+                    <a href="legal_notice.html">LEGAL NOTICE</a>
+                    <a href="tac.html">TERMS AND CONDITIONS</a>
+                    <a href="faq.html">FAQ</a>
+                </div>
+                <div id="socialMedia" class="col-lg-3 col-sm-3 pull-right">
+                    <h5>Social Media </h5>
+                    <div class="social-links">
+                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Container End -->
+    </footer>
+
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="assets/vendor/glightbox/js/glightbox.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/plugins/zoom-image.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

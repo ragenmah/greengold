@@ -41,55 +41,126 @@
     </div>
   </section>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center">
+ <!-- ======= Header ======= -->
+ <header id="header" class="d-flex align-items-center">
+  <div class="container d-flex align-items-center">
 
-      <!--  -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html" class="logo me-auto">
-            <img src="assets/img/logo.png" alt="" class="img-fluid">
-            <!-- <h1 class="logo me-auto"><a href="index.html">GREEN Shop</a></h1> -->
-        </a>
+    <!--  -->
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <a href="index.html" class="logo me-auto">
+      <img src="assets/img/logo.png" alt="" class="img-fluid" height="300px" width="200px">
+    </a>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="aboutus.html">About</a></li>
-          <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Hemp Product</a></li>
-              <li><a href="#">Cotton Product</a></li>
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+        <li><a class="nav-link scrollto" href="aboutus.html">About</a></li>
+        <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#c">Hemp Product</a></li>
+            <li><a href="#">Cotton Product</a></li>
 
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="contact.html">Contact us</a></li>
-          <!-- <li><a class="nav-link scrollto" href="">Login</a></li>
-          <li><a class="getstarted scrollto" href="#about">Register</a></li> -->
-          <li>
-            <button class="openBtn m-3" onclick="openSearch()"><i class="bi bi-search"></i></button>
-          </li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+          </ul>
+        </li>
+        <li><a class="nav-link scrollto" href="contact.html">Contact us</a></li>
+        <!-- <li><a class="nav-link scrollto" href="">Login</a></li>
+        <li><a class="getstarted scrollto" href="#about">Register</a></li> -->
+        <li>
+          <button class="openBtn m-3" onclick="openSearch()"><i class="bi bi-search"></i></button>
+        </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+  </div>
 
+  <div id="myOverlay" class="search-overlay">
+    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+    <div class="animate__animated animate__fadeInUp search-overlay-content">
+      <form action="">
+        <input type="text" placeholder="Search.." name="search" autocomplete="off">
+        <button type="submit"><i class="bi bi-search"></i></button>
+      </form>
     </div>
-
-    <div id="myOverlay" class="search-overlay">
-      <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
-      <div class="animate__animated animate__fadeInUp search-overlay-content">
-        <form action="">
-          <input type="text" placeholder="Search.." name="search" autocomplete="off">
-          <button type="submit"><i class="bi bi-search"></i></button>
-        </form>
-      </div>
-    </div>
-  </header><!-- End Header -->
+  </div>
+</header><!-- End Header -->
 
   
     <main id="main">
 
+      <section class="collection-container container " >
+        <div class="section-title">
+          <h2>Our Collections</h2>
+        </div>
+        <div class="row  no-gutters ">
     
+          <figure class="collection col-lg-4 col-md-6">
+            <a href="product_collection.html">
+              <div class="image">
+                <img src="assets/img/parallax/clothes_hanging.jpg" alt="sq-sample15" class="collection-img" />
+              </div>
+              <figcaption>
+                <h2 class="collection-name">Men</h2>
+              </figcaption>
+            </a>
+          </figure>
+    
+    
+          <figure class="collection col-lg-4 col-md-6">
+            <div class="image">
+              <img src="assets/img/slide/1.jpg" alt="sq-sample15" class="collection-img" />
+            </div>
+            <figcaption>
+              <h2 class="collection-name">Women.</h2>
+            </figcaption>
+          </figure>
+    
+          <div id="myOverlay" class="search-overlay">
+            <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+            <div class="animate__animated animate__fadeInUp search-overlay-content">
+              <form action="">
+                <input type="text" placeholder="Search.." name="search" autocomplete="off">
+                <button type="submit"><i class="bi bi-search"></i></button>
+              </form>
+            </div>
+          </div>
+          <figure class="collection col-lg-4 col-md-6">
+            <div class="image">
+              <img src="assets/img/parallax/clothes_hanging.jpg" alt="sq-sample15" class="collection-img" />
+            </div>
+            <figcaption>
+              <h2 class="collection-name">Men</h2>
+            </figcaption>
+          </figure>
+    
+          <figure class="collection col-lg-4 col-md-6">
+            <div class="image">
+              <img src="assets/img/slide/2.jpg" alt="sq-sample15" class="collection-img" />
+            </div>
+            <figcaption>
+              <h2 class="collection-name">Women.</h2>
+            </figcaption>
+          </figure>
+    
+    
+          <figure class="collection col-lg-4 col-md-6">
+            <div class="image">
+              <img src="assets/img/parallax/clothes_hanging.jpg" alt="sq-sample15" class="collection-img" />
+            </div>
+            <figcaption>
+              <h2 class="collection-name">Men</h2>
+            </figcaption>
+          </figure>
+    
+          <figure class="collection col-lg-4 col-md-6">
+            <div class="image">
+              <img src="assets/img/slide/3.jpg" alt="sq-sample15" class="collection-img" />
+            </div>
+            <figcaption>
+              <h2 class="collection-name">Women.</h2>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
    <!-- ======= Contact Section ======= -->
    <section id="contact" class="contact">
     <div class="container">

@@ -1,77 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green shop</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Gold</title>
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.ico" rel="icon">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Google Fonts -->
+  <!-- <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">  -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,400;8..144,500;8..144,700&display=swap"
+    rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
+
 <body>
-    <!-- ======= Top Bar ======= -->
+  <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
+    <div class="container d-flex justify-content-center ">
+      <!-- justify-content-md-between -->
       <div class="contact-info d-flex align-items-center">
         <!-- <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@example.com</a>
         <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55 -->
-        <div class="slogan">A Hemp Products Manufacturer ,Wholesaler & Exporter .</div>
+        <div class="slogan">A Hemp Products Manufacturer, Wholesaler & Exporter .</div>
+
       </div>
-      
+
       <div class="social-links d-none d-md-block">
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="product_summary.html"><span class="btn btn-sm btn-success"><i class="bi-cart-dash icon-white"></i><span class="badge badge-light">[ 9 ]</span> </span> </a> 
+        <a href="https://www.facebook.com/profile.php?id=100089940001178" class="facebook"><i
+            class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/greengoldnepal/?igshid=NDk5N2NlZjQ" class="instagram"><i
+            class="bi bi-instagram"></i></a>
+        <!-- <a href="product_summary.html"><span class="btn btn-sm btn-success"><i class="bi-cart-dash icon-white"></i><span
+              class="badge badge-light">[ 9 ]</span> </span> </a> -->
+
       </div>
     </div>
   </section>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center">
-
-      <!--  -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html" class="logo me-auto">
-            <img src="assets/img/logo.png" alt="" class="img-fluid">
+  <header id="header" style="background-color: transparent;">
+    <nav class="navbar navbar-expand navbar-dark" id="headerNav">
+      <div class="container-fluid">
+        <a class="navbar-brand d-block d-lg-none" href="#">
+          <img src="assets//img/logo.png" height="80" />
         </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </button>
+        <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="aboutus.html">About</a></li>
-          <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#c">Hemp Product</a></li>
-              <li><a href="#">Cotton Product</a></li>
 
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="contact.html">Contact us</a></li>
-          <!-- <li><a class="nav-link scrollto" href="">Login</a></li>
-          <li><a class="getstarted scrollto" href="#about">Register</a></li> -->
-          <li>
-            <button class="openBtn m-3" onclick="openSearch()"><i class="bi bi-search"></i></button>
-          </li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-    </div>
+        <div class="navbar collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto ">
+            <li class="nav-item">
+              <a class="nav-link mx-5 " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5" href="#about">About Us</a>
+            </li>
+            <li class="nav-item d-none d-lg-block">
+              <a class="nav-link mx-5" href="#">
+                <img src="assets/img/logo.png" height="200px" />
+              </a>
+            </li>
+            <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="#c">Hemp Product</a></li>
+                <li><a href="#">Cotton Product</a></li>
 
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
     <div id="myOverlay" class="search-overlay">
       <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
       <div class="animate__animated animate__fadeInUp search-overlay-content">
@@ -81,25 +105,24 @@
         </form>
       </div>
     </div>
-  </header><!-- End Header -->
+  </header>
 
-  
 
-<!-- ======= Hero Section ======= -->
-<section id="hero">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="mt-0">
     <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+      <!-- <ol class="carousel-indicators" id="hero-carousel-indicators"></ol> -->
 
       <div class="carousel-inner" role="listbox">
 
         <!-- Slide 1 -->
         <div class="carousel-item active" style="background-image: url(assets/img/slide/1.jpg)">
           <div class="carousel-container">
-            <div class="container-fluid ">
-              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Green Shop</span></h2>
-              <p class="animate__animated animate__fadeInUp">A Hemp Products Manufacturer ,Wholesaler & Exporter .</p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Show more</a>
+            <div class="container ">
+              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Project Green Gold </span></h2>
+              <p class="animate__animated animate__fadeInUp">A Hemp Products Manufacturer, Wholesaler & Exporter .</p>
+              <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Show more</a> -->
             </div>
           </div>
         </div>
@@ -107,10 +130,10 @@
         <!-- Slide 2 -->
         <div class="carousel-item" style="background-image: url(assets/img/slide/2.jpg)">
           <div class="carousel-container">
-            <div class="container-fluid ">
+            <div class="container ">
               <h2 class="animate__animated animate__fadeInDown">Hemp Shoes</h2>
               <p class="animate__animated animate__fadeInUp">Handmade with love from Nepal</p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Shop now</a>
+              <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Shop now</a> -->
             </div>
           </div>
         </div>
@@ -118,157 +141,250 @@
         <!-- Slide 3 -->
         <div class="carousel-item" style="background-image: url(assets/img/slide/3.jpg)">
           <div class="carousel-container">
-            <div class="container-fluid ">
+            <div class="container ">
               <h2 class="animate__animated animate__fadeInDown">Hemp products</h2>
               <p class="animate__animated animate__fadeInUp">Handmade with love from Nepal</p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Shop Now</a>
+              <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Shop Now</a> -->
             </div>
           </div>
         </div>
 
       </div>
 
-      <!-- <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
       </a>
 
       <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a> -->
+      </a>
 
     </div>
   </section><!-- End Hero -->
+
   <main id="main">
-     <!-- ======= New Arrivals Section ======= -->
-     <section id="arrivals" class="about">
+    <!-- ======= Our Products Section ======= -->
+    <section id="products" class="about">
       <div class="container">
         <div class="section-title">
-          <!-- <h2>New Arrivals</h2> -->
           <h2>Our Products</h2>
         </div>
-        <div class="row">
-          <!-- <div class="col-lg-3 col-sm-3">
-            <a href="">
-              <div class="card mb-4" style="height:300px!important; ">
-                  <img class="card-img-top" src="https://images.pexels.com/photos/4498366/pexels-photo-4498366.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" height="180" alt="Card image cap">
-                  <div class="card-body">
-                      <h6 class="card-title text-gray-400  max-lines">Hemp Dopp Kit Medium</h6>
-                            <div class="card-title text-warning small"><b>Free</b></div>
-                            <div class="text-gray-400  d-flex justify-content-between align-items-center small card-title">
-                                    <b class="text-gray-400 card-title">$ <s>100</s> </b>
-                                <span class="text-gray-400 card-title">100% off</span>
-                                    <b class="text-success card-title">$ 0</b>
-                            </div>
-                  </div>
-              </div>
-            </a> 
-         </div>  -->
+        <div class="row products-container  no-gutters">
 
           <figure class="products">
             <div class="image">
-              <img src="https://nepalhempindustry.com/files/products/thumbs/thumb_md_1C624BA6-882C-4A42-A546-D1467650B17F.jpg" alt="sq-sample15"/>
-              <div class="icons">
+              <img src="assets/img/slide/1.jpg" alt="sq-sample15" height="300px" />
+              <!-- <div class="icons">
                 <a href="#" class="product-details">Add to cart</a>
-              </div>
-              <a href="product_detail.html" class="add-to-cart">Details</a>
+              </div> -->
+              <a href="product_detail.html" class="add-to-cart">Quick View</a>
             </div>
             <figcaption>
               <h2>Backpack Everest</h2>
               <div class="price">$195.00 </div>
             </figcaption>
           </figure>
-          
+
           <figure class="products">
             <div class="image">
-              <img src="https://nepalhempindustry.com/files/products/thumbs/thumb_md_1C624BA6-882C-4A42-A546-D1467650B17F.jpg" alt="sq-sample15"/>
-              <div class="icons">
-                <a href="#" class="product-details">Add to cart</a>
-              </div>
-              <a href="product_detail.html" class="add-to-cart">Details</a>
+              <img src="assets/img/slide/2.jpg" alt="sq-sample15" height="300px" />
+
+              <a href="product_detail.html" class="add-to-cart">Quick View</a>
             </div>
             <figcaption>
               <h2>Backpack Everest</h2>
               <div class="price">$195.00 </div>
             </figcaption>
           </figure>
-          
+
           <figure class="products">
             <div class="image">
-              <img src="https://nepalhempindustry.com/files/products/thumbs/thumb_md_1C624BA6-882C-4A42-A546-D1467650B17F.jpg" alt="sq-sample15"/>
-              <div class="icons">
-                <a href="#" class="product-details">Add to cart</a>
-              </div>
-              <a href="product_detail.html" class="add-to-cart">Details</a>
+              <img src="assets/img/slide/1.jpg" alt="sq-sample15" height="300px" />
+
+              <a href="product_detail.html" class="add-to-cart">Quick View</a>
             </div>
             <figcaption>
               <h2>Backpack Everest</h2>
               <div class="price">$195.00 </div>
             </figcaption>
           </figure>
-          
+
           <figure class="products">
             <div class="image">
-              <img src="https://nepalhempindustry.com/files/products/thumbs/thumb_md_1C624BA6-882C-4A42-A546-D1467650B17F.jpg" alt="sq-sample15"/>
-              <div class="icons">
-                <a href="#" class="product-details">Add to cart</a>
-              </div>
-              <a href="product_detail.html" class="add-to-cart">Details</a>
+              <img src="assets/img/slide/3.jpg" alt="sq-sample15" height="300px" />
+
+              <a href="product_detail.html" class="add-to-cart">Quick View</a>
             </div>
             <figcaption>
               <h2>Backpack Everest</h2>
               <div class="price">$195.00 </div>
             </figcaption>
           </figure>
-          
+
           <figure class="products">
             <div class="image">
-              <img src="https://nepalhempindustry.com/files/products/thumbs/thumb_md_1C624BA6-882C-4A42-A546-D1467650B17F.jpg" alt="sq-sample15"/>
-              <div class="icons">
-                <a href="#" class="product-details">Add to cart</a>
-              </div>
-              <a href="product_detail.html" class="add-to-cart">Details</a>
+              <img src="assets/img/parallax/clothes_hanging.jpg" alt="sq-sample15" height="300px" />
+
+              <a href="product_detail.html" class="add-to-cart">Quick View</a>
             </div>
             <figcaption>
               <h2>Backpack Everest</h2>
               <div class="price">$195.00 </div>
             </figcaption>
           </figure>
-          
+
           <figure class="products">
             <div class="image">
-              <img src="https://nepalhempindustry.com/files/products/thumbs/thumb_md_1C624BA6-882C-4A42-A546-D1467650B17F.jpg" alt="sq-sample15"/>
-              <div class="icons">
-                <a href="#" class="product-details">Add to cart</a>
-              </div>
-              <a href="product_detail.html" class="add-to-cart">Details</a>
+              <img src="assets/img/parallax/clothes_hanging.jpg" alt="sq-sample15" height="300px" />
+
+              <a href="product_detail.html" class="add-to-cart">Quick View</a>
             </div>
             <figcaption>
               <h2>Backpack Everest</h2>
               <div class="price">$195.00 </div>
             </figcaption>
           </figure>
-          
+
           <figure class="products">
             <div class="image">
-              <img src="https://nepalhempindustry.com/files/products/thumbs/thumb_md_1C624BA6-882C-4A42-A546-D1467650B17F.jpg" alt="sq-sample15"/>
-              <div class="icons">
-                <a href="#" class="product-details">Add to cart</a>
-              </div>
-              <a href="product_detail.html" class="add-to-cart">Details</a>
+              <img src="assets/img/parallax/clothes_hanging.jpg" alt="product_image" height="300px" />
+
+              <a href="product_detail.html" class="add-to-cart">Quick View</a>
             </div>
             <figcaption>
               <h2>Backpack Everest</h2>
               <div class="price">$195.00 </div>
             </figcaption>
           </figure>
-          
-       </div>
+          https://stackoverflow.com/questions/51713192/how-to-create-a-curved-line-at-a-specific-place-in-css-3
+
+          <figure class="products">
+            <div class="image">
+              <img src="assets/img/parallax/clothes_hanging.jpg" alt="sq-sample15" height="300px" />
+            </div>
+            <figcaption>
+              <h2>
+                See all products
+                <!-- <a href="" class="btn mt-1 w-100"></a> -->
+              </h2>
+              <div class="price">Take a look</div>
+            </figcaption>
+
+          </figure>
+
+        </div>
       </div>
-    </section><!-- End About Us Section -->
+    </section><!-- End product Section -->
   </main>
 
-   <!-- ======= Contact Section ======= -->
-   <section id="contact" class="contact">
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services">
+    <div class="container w-75">
+      <div class="section-title">
+        <h2>Service</h2>
+      </div>
+      <div class="d-flex flex-column justify-content-between " >
+
+        <div class="animate__animated animate__fadeInDown service-container">
+          <div class="triangular-right"></div>
+          <div class="service-content">
+            <h1>Creation of green economy </h1>
+            <p class="w-75"> recycling other textiles and incorporating hemp textile to reduce decomposition time and promote
+              sustainability.</p>
+          </div>
+        </div>
+
+        <div class="animate__animated animate__fadeInUp service-container-left m-3">
+          <div class="service-content">
+            <h1>Creation of green economy left</h1>
+            <p class="w-75"> recycling other textiles and incorporating hemp textile to reduce decomposition time and promote
+              sustainability.</p>
+          </div>
+          <div class="triangular-left">
+             
+          </div>
+
+        </div>
+
+        <div class="animate__animated animate__fadeInDown service-container">
+          <div class="triangular-right "></div>
+          <div class="service-content">
+            <h1>Creation of green economy </h1>
+            <p class="w-75"> recycling other textiles and incorporating hemp textile to reduce decomposition time and promote
+              sustainability.</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section><!-- End About Us Section -->
+
+
+  <div class="shop-parallax text-white mt-5">
+    <div class="d-flex flex-column justify-content-center align-items-center p-5 mask"
+      style="background-color: rgba(42, 69, 49, 0.5)">
+      <div class="text-center container-width">
+        <h1 class="company-name">Project Green Gold</h1>
+        <p class="mt-3 small">The proposed ‘Project Green Gold’ aims to contribute to the creative green economy by
+          recycling other
+          textiles and incorporating hemp textile to reduce decomposition time and promote sustainability. By
+          using hemp, the products will also be cheaper and offer more design options. This project will not only
+          help to conserve the environment but also promote sustainable textile production and consumption.
+          Additionally, the use of hemp textile in the production process will also provide an alternative, eco-
+          friendly source of textile material. Overall, the project seeks to provide a sustainable solution to textile
+          production and consumption by utilizing recycled materials and hemp, which will help to reduce waste,
+          preserve natural resources, and promote environmentally friendly textile production.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= About Us Section ======= -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>About Project</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="https://cdn.shopify.com/s/files/1/0253/4801/4128/products/T2082202-Oatmeal-6_600x.jpg?v=1654184055"
+            class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+          <h3>Namaste</h3>
+          <br>
+
+          <div style="text-align: justify;">‘Project Green Gold’ aims to contribute to a creative green economy by
+            recycling other textiles and
+            incorporating recycled hemp textile into the process. By doing so, the decomposition time of the
+            resulting materials is significantly reduced, making the process more sustainable for the
+            environment.<br><br>
+            Additionally, by using recycled hemp as a textile material, the products will be cheaper to produce,
+            which can make them more accessible to a wider range of consumers. Furthermore, the use of hemp
+            textile provides a new canvas for designers to experiment with due to its soft texture, which can lead to
+            a more diverse range of designs in the textile industry.<br><br>
+            By combining other recycled textiles with recycled hemp textile, we are able to create new materials
+            that have a reduced environmental impact compared to traditional textile production methods. This not
+            only helps to conserve resources, but also reduces the amount of waste sent to landfills.<br><br>
+            Furthermore, by recycling textiles, we are also able to reduce the need for virgin materials in textile
+            production. This can help to decrease the environmental footprint of the textile industry and decrease
+            the demand for non-renewable resources.<br><br>
+            The use of recycled hemp textile in particular is beneficial as it is a highly renewable and sustainable
+            resource. They are naturally resistant to mold and UV light, making them a durable and long-lasting
+            material.<br><br>
+            Overall, our project is focused on using sustainable and renewable resources to create new materials
+            while also reducing waste and conserving resources. By doing so, we are able to contribute to a more
+            sustainable and creative future for the textile industry.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End About Us Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
     <div class="container">
 
       <div class="section-title">
@@ -298,7 +414,9 @@
               <p>+977 9808086299</p>
             </div>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2205.507047581962!2d85.27647042924204!3d27.670042561703102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb180fba4f969b%3A0xd2bca90cc1064726!2sPanga%2C%20Kirtipur%2044600!5e0!3m2!1sen!2snp!4v1675703618879!5m2!1sen!2snp" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2205.507047581962!2d85.27647042924204!3d27.670042561703102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb180fba4f969b%3A0xd2bca90cc1064726!2sPanga%2C%20Kirtipur%2044600!5e0!3m2!1sen!2snp!4v1675703618879!5m2!1sen!2snp"
+              frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
           </div>
 
         </div>
@@ -337,49 +455,53 @@
     </div>
   </section><!-- End Contact Section -->
 
-</main><!-- End #main -->
 
-<!-- Footer ================================================================== -->
-<footer id="footer">
-  <div class="container">
+  <!-- Footer ================================================================== -->
+  <footer id="footer">
+    <div class="container">
       <div class="row">
-          <div class="col-lg-3 col-sm-3">
-              <a href="index.html" class="logo me-auto">
-                  <img src="assets/img/logo.png" alt="" class="img-fluid">
-                  <!-- <h1 class="logo me-auto"><a href="index.html">GREEN Shop</a></h1> -->
-              </a>
-              <br>
-              <p>
-                  Nepal Hemp Industry Pvt. Ltd. is an online wholesale platform, offering a wide variety of Nepali hemp handicrafts products at an affordable price and ship worldwide. Our mission is to connect the dots between the local artisans as well as the overall Nepali handicraft community with the rest of the world using technology.
-              </p>
-           </div>
-    
-          <div class="col-lg-3 col-sm-3">
-              <h5>Our Offers</h5>
-              <a href="#">NEW PRODUCTS</a> 
-              <a href="#">TOP SELLERS</a>  
-              <a href="special_offer.html">SPECIAL OFFERS</a>  
-           </div>
-           <div class="col-lg-3 col-sm-3">
-              <h5>Quick Links</h5>
-              <a href="contact.html">CONTACT</a>  
-              <a href="register.html">REGISTRATION</a>  
-              <a href="legal_notice.html">LEGAL NOTICE</a>  
-              <a href="tac.html">TERMS AND CONDITIONS</a> 
-              <a href="faq.html">FAQ</a>
-           </div>
-          <div id="socialMedia" class="col-lg-3 col-sm-3 pull-right">
-              <h5>Social Media </h5>
-              <div class="social-links">
-                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                </div>
-            </div> 
-       </div>
-  </div><!-- Container End -->
-</footer>
+        <div class="col-lg-3 col-sm-3">
+          <a href="index.html" class="logo me-auto">
+            <img src="assets/img/logo.png" alt="" class="img-fluid">
+            <!-- <h1 class="logo me-auto"><a href="index.html">GREEN Shop</a></h1> -->
+          </a>
+          <br>
+          <p>
+            ‘Project Green Gold’ aims to contribute to a creative green economy by recycling other textiles and
+            incorporating recycled hemp textile into the process. By doing so, the decomposition time of the
+            resulting materials is significantly reduced, making the process more sustainable for the environment.
+          </p>
+        </div>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        <div class="col-lg-3 col-sm-3">
+          <h5>Our Offers</h5>
+          <!-- <a href="#">NEW PRODUCTS</a>
+          <a href="#">TOP SELLERS</a>
+          <a href="special_offer.html">SPECIAL OFFERS</a> -->
+        </div>
+        <div class="col-lg-3 col-sm-3">
+          <h5>Quick Links</h5>
+          <!-- <a href="contact.html">CONTACT</a>
+          <a href="register.html">REGISTRATION</a>
+          <a href="legal_notice.html">LEGAL NOTICE</a>
+          <a href="tac.html">TERMS AND CONDITIONS</a>
+          <a href="faq.html">FAQ</a> -->
+        </div>
+        <div id="socialMedia" class="col-lg-3 col-sm-3 pull-right">
+          <h5>Social Media </h5>
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100089940001178" class="facebook"><i
+                class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/greengoldnepal/?igshid=NDk5N2NlZjQ" class="instagram"><i
+                class="bx bxl-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div><!-- Container End -->
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -387,5 +509,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
