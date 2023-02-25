@@ -24,20 +24,23 @@
 </head>
 <body>
 
-     <!-- ======= Top Bar ======= -->
+  <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <!-- <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@example.com</a>
-        <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55 -->
-        <div class="slogan">A Hemp Products Manufacturer ,Wholesaler & Exporter .</div>
+    <div class="container d-flex justify-content-center ">
+      <div class="contact-info d-flex align-items-center ">
+        <!-- <div class="mr-3">
+          <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@example.com</a>
+          <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
+        </div> -->
+
+        <div class="slogan small">A Hemp Products Manufacturer, Wholesaler & Exporter .</div>
       </div>
-      
-      <div class="social-links d-none d-md-block">
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="product_summary.html"><span class="btn btn-sm btn-success"><i class="bi-cart-dash icon-white"></i><span class="badge badge-light">[ 9 ]</span> </span> </a> 
-      </div>
+
+      <!-- <div class="social-links d-none d-md-block">
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="product_summary.html"><span class="btn btn-sm btn-success"><i class="bi-cart-dash icon-white"></i><span class="badge badge-light">[ 9 ]</span> </span> </a> 
+        </div> -->
     </div>
   </section>
 
@@ -47,27 +50,29 @@
 
       <!--  -->
       <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html" class="logo me-auto">
-            <img src="assets/img/logo.png" alt="" class="img-fluid">
-            <!-- <h1 class="logo me-auto"><a href="index.html">GREEN Shop</a></h1> -->
-        </a>
+      <a href="index.html" class="logo me-auto">
+        <img src="assets/img/logo.png" alt="" class="img-fluid">
+        <!-- <h1 class="logo me-auto"><a href="index.html">GREEN Shop</a></h1> -->
+      </a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="aboutus.html">About</a></li>
-          <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="view_all.html"><span>Products
+                <i class="bx bxs-caret-down-circle"></i>
+              </span></a>
             <ul>
-              <li><a href="#">Hemp Product</a></li>
-              <li><a href="#">Cotton Product</a></li>
+              <li><a href="view_all.html">Hemp Product</a></li>
+              <li><a href="view_all.html">Cotton Product</a></li>
 
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="contact.html">Contact us</a></li>
           <!-- <li><a class="nav-link scrollto" href="">Login</a></li>
-          <li><a class="getstarted scrollto" href="#about">Register</a></li> -->
+            <li><a class="getstarted scrollto" href="#about">Register</a></li> -->
           <li>
-            <button class="openBtn m-3" onclick="openSearch()"><i class="bi bi-search"></i></button>
+            <!-- <button class="openBtn m-3" onclick="openSearch()"><i class="bi bi-search"></i></button> -->
           </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -76,7 +81,7 @@
     </div>
 
     <div id="myOverlay" class="search-overlay">
-      <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+      <span class="closebtn" onclick="closeSearch()" title="Close Search">×</span>
       <div class="animate__animated animate__fadeInUp search-overlay-content">
         <form action="">
           <input type="text" placeholder="Search.." name="search" autocomplete="off">
@@ -85,6 +90,9 @@
       </div>
     </div>
   </header><!-- End Header -->
+
+<div style="background-color:green; height: 0.5vh;">
+</div>
 
   
     <main id="main">

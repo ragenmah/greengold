@@ -1,9 +1,4 @@
-/**
-* Template Name: Green - v4.10.0
-* Template URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -82,6 +77,7 @@
    * Header fixed top on scroll
    */
   let selectHeader = select('#header')
+  
   if (selectHeader) {
     let headerOffset = selectHeader.offsetTop
     let nextElement = selectHeader.nextElementSibling
@@ -89,6 +85,7 @@
       if ((headerOffset - window.scrollY) <= 0) {
         selectHeader.classList.add('fixed-top')
         nextElement.classList.add('scrolled-offset')
+
       } else {
         selectHeader.classList.remove('fixed-top')
         nextElement.classList.remove('scrolled-offset')
